@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <ImageView
+        android:id="@+id/edit_image"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="@integer/imageview_picture_weight"
+        android:src="@drawable/addphoto"
+        android:onClick="myClickHandler"/>
+    <EditText
+        android:id="@+id/caption_text"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="@integer/edittext_caption_weight"/>
+    <TextView
+        android:id="@+id/location_text"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="@integer/textview_location_weight"/>
+    <Button
+        android:layout_gravity="center"
+        android:id="@+id/post_button"
+        android:layout_width="@dimen/post_button_size"
+        android:layout_height="@dimen/post_button_size"
+        android:text="@string/post_button"
+        android:onClick="myClickHandler"
+        />
+
+</LinearLayout>

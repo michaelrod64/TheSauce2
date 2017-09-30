@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">TheSauce</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="prompt_password_not_optional">Password</string>
+    <string name="prompt_name">Full Name</string>
+    <string name="prompt_confirm_password">Confirm Password</string>
+    <string name="action_login">Log in or register</string>
+    <string name="action_login_short">Log in</string>
+    <string name="action_logout">Log out</string>
+    <string name="action_sign_up">Sign up</string>
+    <string name="action_create_account">Create Account</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <!--links related to firebase-->
+    <string name="firebase_storage_bucket_name">gs://thesauce2-56d66.appspot.com</string>
+
+    <!-- Relating to the Fragments  -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="profile_fragment">Profile</string>
+    <string name="news_feed_fragment">News Feed</string>
+
+    <string name="dummyProfilePicDownloadUrl">https://firebasestorage.googleapis.com/v0/b/thesauce2-56d66.appspot.com/o/DummyPicture%2FdummyProfilePicture.png?alt=media&amp;token=5d3cb4af-95c5-4e06-846d-e628ceefb325</string>
+
+    <!-- Relating to the post creator -->
+    <string name="choose_gallery">Gallery</string>
+    <string name="choose_camera">Camera</string>
+    <string name="post_button">Post</string>
+    <string name="no_geocoder_availible">no geocoder available</string>
+    <string name="service_not_available">service not available</string>
+    <string name="invalid_lat_long_used">invalid lat long used</string>
+    <string name="no_address_found">no address found</string>
+    <string name="address_found">address found</string>
+
+</resources>

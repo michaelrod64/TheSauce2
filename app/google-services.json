@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "955166792213",
+    "firebase_url": "https://thesauce2-56d66.firebaseio.com",
+    "project_id": "thesauce2-56d66",
+    "storage_bucket": "thesauce2-56d66.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:955166792213:android:ec712e692633d138",
+        "android_client_info": {
+          "package_name": "com.carolinagold.thesauce"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "955166792213-ba2kecvnmmljn36sp34hnvku8jp1futm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.carolinagold.thesauce",
+            "certificate_hash": "21FE10C3D43361078D3AB77DB3C77EA7B5970D39"
+          }
+        },
+        {
+          "client_id": "955166792213-ndo4oa449cjvisirm4e1hsf1nt85ai2f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBww7r8ux-hMU0qjib_9pHsoX0OSKZrlfQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "955166792213-ndo4oa449cjvisirm4e1hsf1nt85ai2f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

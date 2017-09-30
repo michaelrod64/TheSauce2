@@ -1,0 +1,16 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/news_feed_post_bg_color"
+    tools:context="com.carolinagold.thesauce.NewFeedFragment">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/news_feed_fragment_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:dividerHeight="40dp"
+        android:alpha="1"
+        ></android.support.v7.widget.RecyclerView>
+
+</RelativeLayout>
